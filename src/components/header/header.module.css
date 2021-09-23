@@ -1,0 +1,39 @@
+@value makerMerody, makerWhite, makerBlack, makerRed from "../../common/colors.css";
+
+.header {
+  width: 30em;
+  height: 120px;
+  text-align: center;
+  padding: 0.5em;
+  background-color: makerMerody;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logout {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  transform: translateY(-50%);
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: makerRed;
+  color: makerWhite;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.logo {
+  width: 5em;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0;
+  color: makerWhite;
+}
