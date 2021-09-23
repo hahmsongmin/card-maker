@@ -1,0 +1,14 @@
+@value makerRed from "../../common/colors.css";
+
+.editor {
+  flex-basis: 50%;
+  background-color: aquamarine;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: makerRed;
+  font-weight: bold;
+  margin: 1em 0;
+}

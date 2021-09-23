@@ -1,0 +1,14 @@
+@value makerRed from "../../common/colors.css";
+
+.preview {
+  flex-basis: 50%;
+  background-color: aqua;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: makerRed;
+  font-weight: bold;
+  margin: 1em 0;
+}
