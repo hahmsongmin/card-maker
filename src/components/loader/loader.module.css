@@ -1,0 +1,22 @@
+@value makerRed from "../../common/colors.css";
+
+.loader {
+  border: 2px solid #ffff;
+  border-top: 2px solid makerRed;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
